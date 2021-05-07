@@ -1,0 +1,213 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --primary-bcg-color: #e5e5e5;
+  --secondary-bcg-color: #f5f4fa;
+  --footer-color: #2f303a;
+  --logo-text-color: #000000;
+  --accent-color: #2196f3;
+  --title-text-color: #ffffff;
+  --address-text-color: rgba(255, 255, 255, 0, 6);
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --button-hover-color: #188ce8;
+}
+
+body {
+  background-color: var(--primary-bcg-color);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/*Компоненты*/
+
+.list {
+  list-style: none;
+}
+
+/* line-height: ;
+  letter-spacing: 0.03em; */
+
+/*Шапка страницы*/
+.logo {
+  color: var(--logo-text-color);
+}
+
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.nav-item {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--accent-color);
+}
+
+.nav-item.current {
+  color: var(--accent-color);
+}
+.link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.link-contacts .link:hover,
+.link-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/*Секция "Эффективные решения для вашего бизнеса*/
+
+.hero {
+  background-color: var(--footer-color);
+}
+
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.btn-hero {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+  background-color: var(--button-hover-color);
+}
+
+/*Секция "Особенности*/
+
+.features-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.features-description {
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+/*Секция "Чем мы занимаемся*/
+
+.title-services {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/*Секция "Наша команда"*/
+
+.section-team {
+  background-color: var(--secondary-bcg-color);
+}
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/*Подвал страницы*/
+
+.footer-section {
+  background-color: var(--footer-color);
+}
+
+.info .logo {
+  color: var(--title-text-color);
+}
+
+.location {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--title-text-color);
+}
+
+.location .link {
+  color: var(--address-text-color);
+}
+
+/*=================Portfolio====================*/
+.btn-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bcg-color);
+  cursor: pointer;
+}
+
+.btn-item:hover,
+.btn:focus {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+}
+.title-project {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.type-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
+}
